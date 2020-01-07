@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="1985" translatesAutoresizingMaskIntoConstraints="NO" customClass="MainView" fixedFrame="YES">
+                                <rect key="frame" x="20" y="20" width="374" height="696"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2208" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="15">
+                                        <rect key="frame" x="0.0" y="666" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Thick"/>
+                                        <connections>
+                                            <action selector="StrokeWidthButton_Tapped:" destination="BYZ-38-t0r" id="12385" eventType="touchUpInside"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2209" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="10">
+                                        <rect key="frame" x="2" y="632" width="58" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Medium"/>
+                                        <connections>
+                                            <action selector="StrokeWidthButton_Tapped:" destination="BYZ-38-t0r" id="12384" eventType="touchUpInside"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2210" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="5">
+                                        <rect key="frame" x="0.0" y="594" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Thin">
+                                            <color key="titleColor" colorSpace="calibratedRGB" red="0.0392156862745098" green="0.37647058823529411" blue="1" alpha="1"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="StrokeWidthButton_Tapped:" destination="BYZ-38-t0r" id="12383" eventType="touchUpInside"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2211" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="328" y="666" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.17254901960784314" green="1" blue="0.17254901960784314" alpha="1"/>
+                                        <state key="normal">
+                                            <color key="titleColor" colorSpace="calibratedRGB" red="0.0392156862745098" green="0.37647058823529411" blue="1" alpha="1"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="ColorButton_Tapped:" destination="BYZ-38-t0r" id="3625" eventType="touchUpInside"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2214" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="328" y="628" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="1" blue="0.14901960784313725" alpha="1"/>
+                                        <state key="normal">
+                                            <color key="titleColor" colorSpace="calibratedRGB" red="0.0392156862745098" green="0.37647058823529411" blue="1" alpha="1"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="ColorButton_Tapped:" destination="BYZ-38-t0r" id="3419" eventType="touchUpInside"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2215" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="328" y="590" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.094117647058823528" blue="0.094117647058823528" alpha="1"/>
+                                        <state key="normal">
+                                            <color key="titleColor" colorSpace="calibratedRGB" red="1" green="0.011764705882352941" blue="0.011764705882352941" alpha="1"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="ColorButton_Tapped:" destination="BYZ-38-t0r" id="3418" eventType="touchUpInside"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7090" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="153" y="649" width="68" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Clean All">
+                                            <color key="titleColor" colorSpace="calibratedRGB" red="0.94117647058823528" green="0.031372549019607843" blue="0.031372549019607843" alpha="1"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="CleanAllButton_Tapped:" destination="BYZ-38-t0r" id="7091" eventType="touchUpInside"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" id="7328" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="586"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7567" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="164" y="611" width="46" height="30"/>
+                                        <state key="normal" title="Clean">
+                                            <color key="titleColor" colorSpace="calibratedRGB" red="0.094117647058823528" green="1" blue="0.094117647058823528" alpha="1"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="CleanButton_Tapped:" destination="BYZ-38-t0r" id="7568" eventType="touchUpInside"/>
+                                        </connections>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </button>
+                                </subviews>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </view>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="MainView" destination="1985" id="name-outlet-1985"/>
+                        <outlet property="RedButton" destination="2215" id="name-outlet-2215"/>
+                        <outlet property="YellowButton" destination="2214" id="name-outlet-2214"/>
+                        <outlet property="GreenButton" destination="2211" id="name-outlet-2211"/>
+                        <outlet property="ThinButton" destination="2210" id="name-outlet-2210"/>
+                        <outlet property="MediumButton" destination="2209" id="name-outlet-2209"/>
+                        <outlet property="ThickButton" destination="2208" id="name-outlet-2208"/>
+                        <outlet property="CleanAllButton" destination="7090" id="name-outlet-7090"/>
+                        <outlet property="DrawView" destination="7328" id="name-outlet-7328"/>
+                        <outlet property="CleanButton" destination="7567" id="name-outlet-7567"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>

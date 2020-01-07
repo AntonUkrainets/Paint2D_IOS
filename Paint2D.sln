@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paint2D", "Paint2D\Paint2D.csproj", "{62D2C242-5D63-415B-8297-F4AC43D0429E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62D2C242-5D63-415B-8297-F4AC43D0429E}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{62D2C242-5D63-415B-8297-F4AC43D0429E}.Debug|iPhone.Build.0 = Debug|iPhone
+		{62D2C242-5D63-415B-8297-F4AC43D0429E}.Debug|iPhone.Deploy.0 = Debug|iPhone
+		{62D2C242-5D63-415B-8297-F4AC43D0429E}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{62D2C242-5D63-415B-8297-F4AC43D0429E}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{62D2C242-5D63-415B-8297-F4AC43D0429E}.Debug|iPhoneSimulator.Deploy.0 = Debug|iPhoneSimulator
+		{62D2C242-5D63-415B-8297-F4AC43D0429E}.Release|iPhone.ActiveCfg = Release|iPhone
+		{62D2C242-5D63-415B-8297-F4AC43D0429E}.Release|iPhone.Build.0 = Release|iPhone
+		{62D2C242-5D63-415B-8297-F4AC43D0429E}.Release|iPhone.Deploy.0 = Release|iPhone
+		{62D2C242-5D63-415B-8297-F4AC43D0429E}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{62D2C242-5D63-415B-8297-F4AC43D0429E}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{62D2C242-5D63-415B-8297-F4AC43D0429E}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72FB2F6E-4BF2-4531-B7A3-FC42CD0BB70A}
+	EndGlobalSection
+EndGlobal
